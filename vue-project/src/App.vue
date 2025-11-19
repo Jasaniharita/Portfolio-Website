@@ -4,7 +4,8 @@ import { useRouter } from 'vue-router'
 import Projects from './components/Projects.vue';
 import AboutMe from './components/AboutMe.vue';
 import Publications from './components/Publications.vue';
-import Experience from './components/Experience.vue';
+
+import Certifications from './components/Certifications.vue';
 
 const router = useRouter();
 
@@ -21,8 +22,8 @@ function publications(){
   router.push({name: "Publications"});
 }
 
-function experience(){
-  router.push({name: "Experience"})
+function certifications(){
+  router.push({name: "Certifications"})
 }
 
 </script>
@@ -46,8 +47,8 @@ function experience(){
         </div>
       </li>
       <li>
-        <div class="navbar-section" @click="experience">
-          Experience
+        <div class="navbar-section" @click="certifications">
+          Certifications
         </div>
       </li>
     </ul>

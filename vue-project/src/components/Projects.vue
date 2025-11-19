@@ -7,46 +7,33 @@
         <div class="project">
           <div class="image-container">
             <img src="../assets/ahs.png" class="project-image" alt="Project-Image" />
-            <button
-              class="github-button"
-              onclick="window.open(`https://github.com/kirtii119/EDI-Main`, '_blank')"
-            >
-              <img src="../assets/github-sign.png" class="github-image" />
-              Github
-            </button>
+          
           </div>
 
           <div class="project-description-container">
-            <h2>Automated Hiring System using Semantic Similarity & Computer Vision</h2>
+            <h2>Generative AI Malware Classification, Detection, and Monitoring</h2>
             <div class="project-stack">
-              <p class="stack-component">Python</p>
-              <p class="stack-component">Natural Language Processing</p>
-              <p class="stack-component">NLTK</p>
-              <p class="stack-component">Semantic Similarity</p>
-              <p class="stack-component">Web Scraping</p>
-              <p class="stack-component">CNN</p>
-              <p class="stack-component">Spacy</p>
-              <p class="stack-component">Deep Learning</p>
+              <p class="stack-component">Python Libraries</p>
+              <p class="stack-component">Ghidra</p>
+              <p class="stack-component">VS Code</p>
+              <p class="stack-component">Linux & Windows</p>
+              
             </div>
             <ul class="project-description">
-              <li>
-                Leveraged semantic similarity using BERT model to shortlist resume and generated a
-                resume report out of it.
+              <li> <b>Objective:</b> 
+              
+Designed a software solution that generates new types of malware using an existing malware dataset, leveraging the 
+capabilities of Generative AI. The project involved categorizing the output based on the threat level of the malware 
+and integrating cybersecurity tools and protocols to address these threats. t.
               </li>
-              <li>
-                Applied NLTK algorithms and spacy’s pre-trained model for data processing and
-                tagging for natural language.
+              <li> <b>Key Responsibilities:</b>
+                I designed and implemented a system that generates new malware samples by training a Generative AI model on an existing malware dataset. After generating these samples, I categorized them according to their threat levels using advanced classification algorithms. To understand their behavior and potential risks, I tested the generated malware against standard cybersecurity tools and monitoring environments. Based on the classified threat levels, I also developed targeted cybersecurity controls to ensure effective mitigation and prevention strategies were applied.
               </li>
-              <li>
-                Conducted interview based on the resume report, job description and gathered
-                tailored real-time questions from online resources from web, reducing the interview
-                time and its preparation for interviewers by at least 6 hours each hiring cycle.
+              <li><b>Outcome:</b> 
+                I produced a comprehensive tabulated report documenting each malware sample generated, tested, and classified according to its threat level. From this analysis, I generated actionable insights to help implement the necessary cybersecurity controls required to prevent potential malware outflow. Additionally, I stored all generated data in a structured database to support future analysis, tracking, and research..
               </li>
-              <li>
-                Designed an innovative real-time interface to identify variations in facial
-                expressions and voice to determine confidence level and malpractices during the
-                interview using Sequential CNN model and LSTM along with Python OpenCV library.
-              </li>
+              
+          
             </ul>
           </div>
         </div>
@@ -57,105 +44,42 @@
               src="../assets/person_reidentification.png"
               class="project-image"
               alt="Project-Image"
-            />
-            <button class="github-button">
-              <img src="../assets/github-sign.png" class="github-image" />
-              Github
-            </button>
+            
           </div>
 
           <div class="project-description-container">
             <h2>
-              Improving Person re-identification with Dual Generator and Dual Discriminator in
-              Conditional GANs
+              Compiled Expense Tracker using Supervised Learning Algorithm 
             </h2>
             <div class="project-stack">
-              <p class="stack-component">Python</p>
-              <p class="stack-component">Generative Adversarial Network</p>
-              <p class="stack-component">OpenCV</p>
-              <p class="stack-component">CNN</p>
+              <p class="stack-component">Python Libraries</p>
+              <p class="stack-component">VS Code</p>
+              <p class="stack-component">MongoDB</p>
+              <p class="stack-component">Google Colab</p>
             </div>
             <ul class="project-description">
-              <li>
-                Developed a dual-generator and dual-discriminator based conditional GAN system,
-                reducing error rate for person reidentification by 13%.
+              <li> <b>Objective :</b> 
+Developed a system that automatically detects and organizes subscriptions and recurring bills, providing users with 
+a clear and comprehensive view of their regular financial commitments.
+                
               </li>
-              <li>
-                Applied Python’s OpenCV library to capture and identify objects from the images.
+              <li><b>Key Responsibilities:</b>
+                I designed and implemented a machine learning model to process payment bill data and identify subscriptions and recurring payments. Using supervised learning algorithms, the model classifies transactions into categories based on spending patterns and frequency. I integrated MongoDB to store the categorized data, enabling tracking of spending over time. Additionally, I created a user-friendly output interface that displays categorized expenditures and highlights the highest spending categories. The system is also capable of distinguishing between periodic payments and new or unique transactions, allowing for more accurate and insightful financial tracking.
               </li>
-              <li>
-                Enhanced the image quality using combination of low-light image optimization
-                technique and attention mechanism.
+              <li><b>Outcome:</b> 
+                I developed a system that generates real-time outputs showing the categories with the highest spending and the amounts spent in each. This enables users to easily track and manage recurring financial commitments, identify spending patterns, and optimize their budget. The system provides clear insights into monthly expenses and streamlines the process of managing subscriptions and bills effectively.
               </li>
-              <li>
-                Wasserstein Distance algorithm and Attention mechanism helped in distinguishing real
-                and fake images.
-              </li>
+              
             </ul>
           </div>
         </div>
 
-        <div class="project">
-          <div class="image-container">
-            <img src="../assets/portfolioAnalytics.png" class="project-image" alt="Project-Image" />
-            <div class="github-buttons-container">
-              <div class="github-buttons">
-                <p>Backend:</p>
-                <button
-                  class="github-button"
-                  onclick="window.open(`https://github.com/AadeshKabra/Portfolio-Analytics---Backend`, '_blank')"
-                >
-                  <img src="../assets/github-sign.png" class="github-image" />
-                  Github
-                </button>
-              </div>
-              <div class="github-buttons">
-                <p>Frontend:</p>
-                <button
-                  class="github-button"
-                  onclick="window.open(`https://github.com/AadeshKabra/Portfolio-Analytics---Frontend`, '_blank')"
-                >
-                  <img src="../assets/github-sign.png" class="github-image" />
-                  Github
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-description-container">
-            <h2>Portfolio Analytics</h2>
-            <div class="project-stack">
-              <p class="stack-component">Python</p>
-              <p class="stack-component">FastAPI</p>
-              <p class="stack-component">VueJS</p>
-              <p class="stack-component">RAG chatbot</p>
-            </div>
-            <ul class="project-description">
-              <li>
-                Portfolio Analytics is an interactive web application designed to help
-                monitor, analyze, and make data-driven decisions about my stock investments in Zerodha.
-              </li>
-              <li>
-                Contains interactive charts (line, bar, pie, candlestick) for portfolio trends,
-                stock price history, and sector allocation.
-              </li>
-              <li>Contains a RAG based chatbot to answer questions related to my portfolio</li>
-              <li>Aggregates the latest stock market news relevant to my portfolio.</li>
-              <li>Used Zerodha based authentication system in the application for secure-login process.</li>
-            </ul>
-          </div>
-        </div>
+       
 
         <div class="project">
           <div class="image-container">
             <img src="../assets/meAccounts.png" class="project-image" alt="Project-Image" />
-            <button
-              class="github-button"
-              onclick="window.open(`https://github.com/AadeshKabra/MEAccounts`, '_blank')"
-            >
-              <img src="../assets/github-sign.png" class="github-image" />
-              Github
-            </button>
+            
           </div>
 
           <div class="project-description-container">
