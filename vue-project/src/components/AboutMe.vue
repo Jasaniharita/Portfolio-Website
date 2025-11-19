@@ -40,7 +40,7 @@ Over time, I’ve developed a keen interest in Governance, Risk, and Compliance 
         <div class="tech-row">
             <div class="tech-skill">
                 
-                <p class="tech-text">Python</p>
+                <p class="tech-text">Harita</p>
             </div>
             <div class="tech-skill">
                 <img src="../assets/c++.png" alt="C++" class="tech-icon">
