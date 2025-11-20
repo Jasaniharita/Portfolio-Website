@@ -1,114 +1,68 @@
 <template>
-  <h2 class="heading">Publications</h2>
+  <h2 class="heading">Volunteering</h2>
 
   <div class="publications-container">
     <div
       class="publication"
-      onclick="window.open(`https://ieeexplore.ieee.org/document/10126463`, '_blank')"
     >
       <h2>
-        A Semantic Approach for Automated Hiring using Artificial Intelligence & Computer Vision
+        Google Developer Student Club
       </h2>
 
       <p class="abstract">
-        <b>Abstract: </b>
-        This research paper presents an automated interview system that utilizes natural language
-        processing and deep learning techniques to conduct job interviews. The system comprises 4
-        modules, the first one being resume classification system, which is built on
-        state-of-the-art NLP architecture and transformer-based BERT model. The model uses Named
-        Entity Recognition and Text Classification to extract relevant information from the resume.
-        The resume classification algorithm is based on the principle of context relevance, and
-        skill mentions in the resumes are validated through an analysis of the candidate's
-        experience and completed projects before being classified. The subsequent module utilizes
-        the output from the resume model to generate a set of relevant interview questions for the
-        candidate through utilizing natural language processing techniques and semantic analysis.
-        The difficulty of the following questions is adjusted owing to the interviewee’s answer,
-        very much like what human HRs do. Such questions are extracted with the help of web scraping
-        by selenium driver. One of the most innovative parts of this system is its ability to reduce
-        bias in the hiring process by using machine learning models to evaluate candidate responses.
-        The following module assesses the candidate's personality during the interview using the CNN
-        and LSTM models. In addition to generating relevant interview questions, the system also
-        detects potential instances of misconduct or malpractice during the interview process using
-        Open CV’S DNN module and a quantized model. Overall, this system has the potential to
-        revolutionize the way companies conduct job interviews and improve the hiring process.
+        <b>Description: </b>
+        Led initiatives to promote Google's development tools and technologies (e.g., Firebase, Flutter), enhancing 
+        technical knowledge and advocacy skills. Organized coding sessions, workshops, and tech talks for fellow students, 
+        fostering a collaborative learning environment. Contributed to community development by organizing Google Cloud 
+        Study Jams, assisting peers in learning cloud technologies. Strengthened leadership skills by managing teams for 
+        club activities and supporting tech-related events and hackathons.
       </p>
-
-      <div>
-        <p class="pub-info-line">
-          <span><b class="publisher">Publisher:</b> IEEE</span>
-          <span><b class="published">Published in:</b>2023 IEEE 8th International Conference for Convergence in Technology (I2CT)</span>
-        </p>
-        <p><b>Date of Conference: </b>07-09 April 2023</p>
-        <p><b>DOI: </b>10.1109/I2CT57861.2023.10126463</p>
-      </div>
     </div>
 
     <div
       class="publication"
-      onclick="window.open(`https://ieeexplore.ieee.org/document/10530790`, '_blank')"
     >
       <h2>
-        Improving Person-Re Identification with Dual-Generator and Dual-Discriminator Architecture
-        in Conditional GANs
+        Eleet Club (Cybersecurity)
       </h2>
 
       <p class="abstract">
-        <b>Abstract: </b>
-        A significant challenge in computer vision, which aims to recognise a person across numerous
-        camera views, is the re-identification of persons over several non-interconnected camera
-        views. Generative Adversarial Networks (GANs) have been employed successfully in person
-        re-identification tasks, where they can generate realistic images of a person based on a
-        query image. In this paper, a new novel Dual-Generator and Dual-Discriminator architecture
-        for Conditional GANs is used for re-identification. The proposed architecture consists of
-        two image generators and two discriminators that generate high-quality images and capture a
-        person's identity information efficiently. The discriminators use the Wasserstein distance
-        method for classification between real and fake images. Additionally, the system utilizes
-        low-light image optimization for pre-processing the images, which improves the quality and
-        visibility of the images captured in low-light conditions, making them more suitable for
-        re-identification. Study results show that the Dual-Generator and Dual-Discriminator
-        architecture for Conditional GAN re-identification achieves improved accuracy and
-        resilience. This research paper presents a new cutting-edge method for person-re
-        identification.
+        <b>Description: </b>
+        Collaborated with a team to organize and manage technical workshops and events, enhancing 
+        cybersecurity knowledge. Coordinated technical discussions and speaker sessions on emerging technologies, improving 
+        communication and networking abilities. Facilitated hands-on coding and tech development workshops, gaining practical 
+        experience in using cybersecurity tools.
       </p>
-      <div>
-        <p class="pub-info-line">
-          <span><b class="publisher">Publisher:</b> IEEE</span>
-          <span><b class="published">Published in:</b> 2024 1st International Conference on Cognitive, Green and
-            Ubiquitous Computing (IC-CGU)</span>
-        </p>
-        <p><b>Date of Conference: </b>01-02 March 2024</p>
-        <p><b>DOI: </b>10.1109/IC-CGU58078.2024.10530790</p>
-      </div>
     </div>
 
     <div
       class="publication"
-      onclick="window.open(`https://www.researchgate.net/publication/366311882_Cryptography_using_Automata_Theory`, '_blank')"
     >
-      <h2>Cryptography using Automata Theory</h2>
+      <h2>Cyberthon</h2>
 
       <p class="abstract">
-        <b>Abstract: </b>
-        Encryption and decryption are the two most crucial components of cryptography. Data
-        protection is the main objective of both systems. We utilised encryption to transform plain
-        text into ciphertext. Decryption, which works the other way around from encryption, is the
-        process of converting encrypted text back into plain text. By using a finite state machine
-        and the LU decomposition method, the created encryption solution ensures data secrecy for
-        safe communication. In our suggested approach, we additionally employ lower and upper
-        triangular matrices, which are obtained by decomposing a square matrix. During encryption,
-        the key will be a lower triangular matrix modulated by a prime number, and during
-        decryption, an upper triangular matrix modulated by a prime number. The tactic is
-        beneficial. This tactic is helpful in sectors such as finance and military services where
-        confidential material must be delivered.
+        <b>Description: </b>
+        Provided guidance and support to participants by helping them brainstorm and develop innovative 
+        solutions to real-world cybersecurity problems. Facilitated communication between teams, ensuring smooth 
+        collaboration and effective problem-solving throughout the project. Gained insights into current cybersecurity 
+        issues while contributing to the development of actionable solutions for real-world problems. Enhanced teamwork, 
+        leadership, and organizational skills by managing participant engagement and helping to coordinate project deliverables.
       </p>
-      <div>
-        <p class="pub-info-line">
-          <span><b class="publisher">Publisher:</b> ITM Web of Conferences</span>
-          <span><b class="published">Published in:</b> ICAECT 2022</span>
-        </p>
-        <p><b>Date of Conference: </b>December 2022</p>
-        <p><b>DOI: </b>10.1051/itmconf/20225001007</p>
-      </div>
+    </div>
+
+    <div
+      class="publication"
+    >
+      <h2>College Orientations</h2>
+
+      <p class="abstract">
+        <b>Description: </b>
+        Assisted in organizing orientation programs for new students, developing strong organizational and event 
+        management skills. Provided mentorship and guidance to incoming students, fostering communication and leadership skills. 
+        Coordinated logistics, including registration and resource management, ensuring smooth execution of the 
+        orientation events. Built strong interpersonal and teamwork skills by working with faculty and student volunteers to enhance 
+        the overall orientation experience.
+      </p>
     </div>
   </div>
 </template>

@@ -4,7 +4,7 @@
   <div class="experience-section">
     <div class="experience" @click="downloadFile('axis.pdf')">
       <div class="image-container">
-        <img src="../assets/infineon.png" alt="infineon-technologies" />
+        <img src="../assets/SRMaxis .jpeg" alt="SRM Axis Intellects" />
       </div>
       <div>
         <h2>Javascript with HTML</h2>
@@ -25,7 +25,7 @@
 
     <div class="experience" @click="downloadFile('level 1.pdf')">
       <div class="image-container">
-        <img src="../assets/infineon.png" alt="infineon-technologies" />
+        <img src="../assets/Mossé Cyber Security Institute.jpeg" alt="Mossé Cyber Security Institute" />
       </div>
       <div>
         <h2>Cybersecurity Learner Level-1</h2>
@@ -47,7 +47,7 @@
 
     <div class="experience" @click="downloadFile('level 2.pdf')">
       <div class="image-container">
-        <img src="../assets/infineon.png" alt="infineon-technologies" />
+        <img src="../assets/Mossé Cyber Security Institute.jpeg" alt="Mossé Cyber Security Institute" />
       </div>
       <div>
         <h2>Cybersecurity Learner Level-2</h2>
@@ -69,7 +69,7 @@
 
     <div class="experience" @click="downloadFile('COMPTIA SCORE REPORT__.pdf')">
       <div class="image-container">
-        <img src="../assets/infineon.png" alt="infineon-technologies" />
+        <img src="../assets/CompTIA .jpeg" alt="CompTIA" />
       </div>
       <div>
         <h2>CompTIA Security+</h2>

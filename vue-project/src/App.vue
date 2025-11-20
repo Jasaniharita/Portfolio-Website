@@ -43,7 +43,7 @@ function certifications(){
       </li>
       <li>
         <div class="navbar-section" @click="publications">
-          Publications
+          Volunteering
         </div>
       </li>
       <li>

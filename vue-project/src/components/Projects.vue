@@ -6,7 +6,7 @@
       <li>
         <div class="project">
           <div class="image-container">
-            <img src="../assets/ahs.png" class="project-image" alt="Project-Image" />
+            <img src="../assets/Genai.png" class="project-image" alt="Project-Image" />
           
           </div>
 
@@ -41,10 +41,10 @@ and integrating cybersecurity tools and protocols to address these threats. t.
         <div class="project">
           <div class="image-container">
             <img
-              src="../assets/person_reidentification.png"
+              src="../assets/Compile.png"
               class="project-image"
               alt="Project-Image"
-            
+            />
           </div>
 
           <div class="project-description-container">
@@ -78,34 +78,25 @@ a clear and comprehensive view of their regular financial commitments.
 
         <div class="project">
           <div class="image-container">
-            <img src="../assets/meAccounts.png" class="project-image" alt="Project-Image" />
+            <img src="../assets/riskassessment.png" class="project-image" alt="Project-Image" />
             
           </div>
 
           <div class="project-description-container">
-            <h2>MEAccounts - An accounting application for Mangala Enterprises</h2>
+            <h2>Factory Risk Assessment & Asset Inventory System</h2>
             <div class="project-stack">
-              <p class="stack-component">Python</p>
-              <p class="stack-component">Flask</p>
-              <p class="stack-component">MongoDB</p>
-              <p class="stack-component">Javascript</p>
-              <p class="stack-component">HTML</p>
-              <p class="stack-component">CSS</p>
+              <p class="stack-component">Draw.io (Asset & Network Diagrams)</p>
+              <p class="stack-component">Python (Data Processing & Inventory Automation)</p>
+              <p class="stack-component">Network Scanning Tools</p>
+              <p class="stack-component">Excel for Inventory Storage</p>
+              <p class="stack-component">NIST CSF Framework</p>
             </div>
             <ul class="project-description">
-              <li>It is an accounting application developed for Mangala Enterprises, according to the specifications requested by the company.
+              <li><b>Objective:</b> Developed a complete risk-assessment documentation package for a manufacturing facility. This included creating a detailed factory asset list, mapping how every device/system connects to the central servers, documenting software used across systems, and aligning all findings with a NIST CSF-based checklist to evaluate risk levels and compliance readiness.
               </li>
-              <li>
-                User could analyze the data in the form of dashboards, charts and graphs.
+              <li><b>Key Responsibilities:</b> Created a full asset inventory covering machines, sensors, servers, workstations, and network devices, including attributes such as location, function, software, IP mappings, and criticality. Designed detailed diagrams illustrating network flow, server communication, data paths, and interdependencies between factory assets. Documented all software running on each asset and categorized applications by purpose, version, and risk impact. Completed a NIST CSF control sheet, marking compliance levels, gaps, and recommended mitigation steps. Identified high-risk assets, legacy systems, and unpatched devices, providing remediation priorities. Collaborated with engineering/IT teams to validate diagrams, asset lists, and risk classifications.
               </li>
-              <li>
-                Google-based authentication system was used in the application for a secure-login process.
-              </li>
-              <li>
-                Enables users to filter transactions by date range for generating reports and summaries.
-              </li>
-              <li>
-                Offers administrative control for managing users and data integrity.
+              <li><b>Outcome:</b> Delivered a complete, professional documentation package that included: A clear asset inventory database, A visual connectivity diagram of the factory's entire system architecture, A software-used list with risk flags, A NIST CSF compliance sheet with highlighted gaps and priorities.
               </li>
             </ul>
           </div>

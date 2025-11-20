@@ -9,8 +9,8 @@
 Over time, I’ve developed a keen interest in Governance, Risk, and Compliance (GRC) and am actively working on projects to strengthen both my technical skills and risk management capabilities. I enjoy solving complex security challenges and bring strong analytical and problem-solving abilities to every task. Through my graduate studies, I aim to deepen my expertise in cybersecurity governance and threat mitigation, ultimately contributing to secure and resilient enterprise environments.
           </p>
           <div class="profile-icons">
-            <img src="../assets/github.png" class="profile-icon" alt="GitHub" onclick="window.open(`https://github.com/AadeshKabra`, '_blank')">
-            <img src="../assets/linkedin.png" class="profile-icon" alt="LinkedIn" onclick="window.open(`https://www.linkedin.com/in/aadesh-kabra-06a050207/`, '_blank')">
+            <img src="../assets/github.png" class="profile-icon" alt="GitHub" onclick="window.open(`https://github.com/Jasaniharita`, '_blank')">
+            <img src="../assets/linkedin.png" class="profile-icon" alt="LinkedIn" onclick="window.open(`https://www.linkedin.com/in/harita-jasani-8b8b17218/`, '_blank')">
             <!-- <button @click="download" >Resume</button> -->
              <!-- <a :href="pdfFile" download="Resume__Harita.pdf">
               <button>Resume</button>
@@ -37,64 +37,63 @@ Over time, I’ve developed a keen interest in Governance, Risk, and Compliance 
 
     <section class="tech-skills-section">
         <h1 class="heading">Tech Skills</h1>
-        <div class="tech-row">
-            <div class="tech-skill">
-                
-                <p class="tech-text">Harita</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/c++.png" alt="C++" class="tech-icon">
-                <p class="tech-text">C++</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/mysql.png" alt="MySQL" class="tech-icon">
-                <p class="tech-text">MySQL</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/impala.png" alt="Impala" class="tech-icon">
-                <p class="tech-text">Impala</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/vuejs.png" alt="VueJS" class="tech-icon">
-                <p class="tech-text">VueJS</p>
-            </div>
-        </div>
+        <div class="skills-container">
+            <div class="skills-column">
+                <div class="skill-category">
+                    <h3 class="category-title">Cybersecurity Tools:</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">Metasploit</span>
+                        <span class="skill-tag">Kali Linux</span>
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag">Snort</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Nessus</span>
+                        <span class="skill-tag">OpenVAS</span>
+                    </div>
+                </div>
 
-        <div class="tech-row">
-            <div class="tech-skill">
-                <img src="../assets/fastapi.png" alt="FastAPI" class="tech-icon">
-                <p class="tech-text">FastAPI</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/tableau.png" alt="Tableau" class="tech-icon">
-                <p class="tech-text">Tableau</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/mongodb.png" alt="MongoDB" class="tech-icon">
-                <p class="tech-text">MongoDB</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/spacy_new.png" alt="Spacy" class="tech-icon">
-                <p class="tech-text">Spacy</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/flask.png" alt="Flask" class="tech-icon">
-                <p class="tech-text">Flask</p>
-            </div>
-        </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Networking Protocols</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">TCP/IP</span>
+                        <span class="skill-tag">DNS</span>
+                        <span class="skill-tag">HTTP</span>
+                        <span class="skill-tag">SSL/TLS</span>
+                    </div>
+                </div>
 
-        <div class="tech-row">
-            <div class="tech-skill">
-                <img src="../assets/javascript.png" alt="Javascript" class="tech-icon">
-                <p class="tech-text">Javascript</p>
+                <div class="skill-category">
+                    <h3 class="category-title">Operating Systems</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Linux (Ubuntu, Kali)</span>
+                    </div>
+                </div>
             </div>
-            <div class="tech-skill">
-                <img src="../assets/html.png" alt="HTML" class="tech-icon">
-                <p class="tech-text">HTML</p>
-            </div>
-            <div class="tech-skill">
-                <img src="../assets/css.png" alt="CSS" class="tech-icon">
-                <p class="tech-text">CSS</p>
+
+            <div class="skills-column">
+                <div class="skill-category">
+                    <h3 class="category-title">Security Concepts</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Vulnerability Assessment</span>
+                        <span class="skill-tag">Incident Response</span>
+                        <span class="skill-tag">Threat Hunting</span>
+                        <span class="skill-tag">Digital Forensics</span>
+                        <span class="skill-tag">Malware Analysis</span>
+                        <span class="skill-tag">Risk Management</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Protocols & Standards</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">MITRE ATT&CK</span>
+                        <span class="skill-tag">ISO 27001</span>
+                        <span class="skill-tag">Zero Trust</span>
+                        <span class="skill-tag">NIST Framework</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -194,36 +193,83 @@ Over time, I’ve developed a keen interest in Governance, Risk, and Compliance 
     color: #1B3C53;
   }
 
-  .tech-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    margin-top: 2em;
-  }
-
-  .tech-skill{
-    padding: 10px;
-    border-radius: 10px;
-    min-width: 150px;
-  }
-  .tech-skill:hover{
-    /* transform: translateY(-4px); */
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
-    transform: scale(1.1);
+  .tech-skills-section {
     background-color: #fbfaf9;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   }
 
-  .tech-icon{
-    height: 75px;
-    width: 75px;
-    display: block;
+  .tech-skills-section .heading {
+    color: #1B3C53;
+    margin-bottom: 2rem;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
     margin: 0 auto;
   }
 
-  .tech-text{
-    text-align: center;
+  .skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .skill-category {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .category-title {
+    color: #1B3C53;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .skill-tag {
+    background-color: #f5f5f5;
+    color: #1B3C53;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    white-space: nowrap;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+  }
+
+  .skill-tag:hover {
+    background-color: #e8e8e8;
+    border-color: #1B3C53;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .skills-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .tech-skills-section {
+      padding: 2rem 1rem;
+    }
   }
 
   .resume-button {
