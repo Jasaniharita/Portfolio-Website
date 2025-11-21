@@ -4,7 +4,7 @@
     <div class="profile-container">
       <div class="text-container">
         <p class="profile-text">
-          I am an MEng student at the University of Maryland, College Park, currently pursuing my Master’s in Cybersecurity. I completed my Bachelor’s in Computer Science at SRM Institute of Science and Technology, where I built a strong foundation in network security, vulnerability assessment, and cyber defense.
+          I am a student at the University of Maryland, College Park, currently pursuing my Master's in Cybersecurity. I completed my Bachelor’s in Computer Science at SRM Institute of Science and Technology, where I built a strong foundation in network security, vulnerability assessment, and cyber defense.
 
 Over time, I’ve developed a keen interest in Governance, Risk, and Compliance (GRC) and am actively working on projects to strengthen both my technical skills and risk management capabilities. I enjoy solving complex security challenges and bring strong analytical and problem-solving abilities to every task. Through my graduate studies, I aim to deepen my expertise in cybersecurity governance and threat mitigation, ultimately contributing to secure and resilient enterprise environments.
         </p>
